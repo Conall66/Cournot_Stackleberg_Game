@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 
 alphad = 100.0      
 betad  = 0.5       
-beta2  = 0.1        
-beta1_values = np.linspace(0.1, 1.0, 100) 
+beta2  = 10        
+beta1_values = np.linspace(0.1, 20, 100) 
 
 
 q1_vals = (alphad + betad*(beta2 - 2*beta1_values)) / 3.0
