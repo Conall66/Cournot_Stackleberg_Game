@@ -2,22 +2,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-betad = 10       # Demand slope factor
-beta1 = 1       # Cost parameter for firm 1
+betad = 0.5       # Demand slope factor
+beta1 = 0.5       # Cost parameter for firm 1
 beta2 = 0.1       # Cost parameter for firm 2
 
-
 alphad_values = np.linspace(10, 200, 100)  # For example, from 50 to 150
-
-
 q1_values = (alphad_values + betad*(beta2 - 2*beta1)) / 3.0
 q2_values = (alphad_values + betad*(beta1 - 2*beta2)) / 3.0
-
-
 Q_values = q1_values + q2_values
 P_values = (alphad_values - Q_values) / betad
-
-
 pi1_values = q1_values * (P_values - beta1)
 pi2_values = q2_values * (P_values - beta2)
 

@@ -6,8 +6,6 @@ betad  = 0.5
 beta1  = 0.5
 beta2  = 0.1
 
-# For Stackelberg duopoly:
-# Follower's best response: q2 = (alphad - q1 - betad*beta2) / 2.
 q1_range = np.linspace(0, alphad/2, 100)
 BR_follower = (alphad - q1_range - betad * beta2) / 2.0
 
