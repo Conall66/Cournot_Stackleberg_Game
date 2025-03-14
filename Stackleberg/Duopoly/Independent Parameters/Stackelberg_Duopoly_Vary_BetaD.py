@@ -6,7 +6,7 @@ beta1  = 0.5
 beta2  = 0.1      
 
 
-betad_values = np.linspace(0.1, 1.0, 100)
+betad_values = np.linspace(0.1, 10, 100)
 
 q1_values = (alphad + betad_values*(beta2 - 2*beta1)) / 2.0
 q2_values = (alphad - betad_values*(3*beta2 - 2*beta1)) / 4.0
