@@ -1,7 +1,7 @@
 # Cournot Duopoly
 alphad = 100.0      # Demand intercept
 betad  = 0.5        # Demand slope factor
-beta1  = 0.5        # Cost parameter for firm 1
+beta1  = 0.5       # Cost parameter for firm 1
 beta2  = 0.1        # Cost parameter for firm 2
 
 q1 = (alphad + betad*(beta2 - 2*beta1)) / 3.0
