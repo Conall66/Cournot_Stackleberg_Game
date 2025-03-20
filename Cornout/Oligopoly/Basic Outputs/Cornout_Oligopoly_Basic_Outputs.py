@@ -1,6 +1,6 @@
-alphad = 100.0              
-betad  = 0.5                
-beta_list = [0.5, 0.1, 0.2]
+alphad = 150            
+betad  = 2.58             
+beta_list = [0.28, 0.12, 0.2]
 
 n = len(beta_list)
 sum_beta = sum(beta_list)

@@ -1,6 +1,6 @@
-alphad = 100.0                      # Demand intercept
-betad  = 0.5                        # Demand slope factor
-beta_list = [0.5, 0.1, 0.3, 0.2]      # Cost parameters for n firms (n=4); firm 1 is leader
+alphad = 360             
+betad  = 2.58             
+beta_list = [0.28, 0.12, 0.2, 0.22, 0.25]
 
 n = len(beta_list)
 beta_leader = beta_list[0]
