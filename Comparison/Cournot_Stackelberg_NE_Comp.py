@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Parameters
+# Input Parameters
 alphad = 100.0
 betad  = 0.5
 beta1  = 0.5
